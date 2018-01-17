@@ -1,0 +1,37 @@
+{
+    "result":0,
+    "data":{
+        "id":"90128a4be159418b86deab8c09624d4a",
+        "userId":"230a25237c5c4685aee1799fe77792a8",
+        "sex":"1",
+        "name":"测试",
+        "phone":"18680751843",
+        "bankType":"1",
+        "bankNo":"6222222222222122222",
+        "agentType":"1,2",
+        "provinceId":"23",
+        "provinceName":"重庆",
+        "cityId":"268",
+        "cityName":"重庆市",
+        "areaId":"2409",
+        "areaName":"江北区",
+        "dealerId":"2381",
+        "dealerName":"个性化定制车虚拟经销商",
+        "state":"4",
+        "updateTime":"2017-11-30 17:04:50.0",
+        "remark":"ewt5u65esr",
+        "financeName":"",
+        "cardNo":"522222222222222222",
+        "deposit":"工商行",
+        "brokerRole":"",
+        "registerAgentType":"",
+        "registerAgentTypeName":"",
+        "certificationType":"",
+        "createTime":null,
+        "assignTime":null,
+        "assignNum":0,
+        "isEnjoyService":null,
+        "finances":[]
+    }
+
+}

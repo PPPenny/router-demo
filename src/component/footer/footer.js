@@ -11,15 +11,14 @@ class Footer extends Component{
     render(){
         return(
             <div>
-                <div className="footDiv">
-                    <Link to="/pages/orders"><FooterItem txt="订单"/></Link>
-                    <Link to="/pages/order"><FooterItem txt="下单"/></Link>
-                    <Link to="/pages/clue"><FooterItem txt="线索"/></Link>
-                    <Link to="/pages/my"><FooterItem txt="我"/></Link>
+                <div className="footDiv border-t">
+                    <Link to="/pages/orders"><FooterItem txt="订单" icon="icon-new-orders"/></Link>
+                    <Link to="/pages/order"><FooterItem txt="下单" icon="icon-new-order"/></Link>
+                    <Link to="/pages/clue"><FooterItem txt="线索" icon="icon-clue"/></Link>
+                    <Link to="/pages/my"><FooterItem txt="我" icon="icon-mine"/></Link>
                 </div>
                 <main>
-                    <Route path="/" exact component={OrdersIndex}/>
-                     
+                    <Route path="/" exact component={OrdersIndex}/>     
                         <Route path="/pages/orders" exact component={OrdersIndex} />
                         <Route path="/pages/order" exact component={OrderIndex} />
                         <Route path="/pages/clue" exact component={ClueIndex} />
@@ -30,9 +29,10 @@ class Footer extends Component{
         )
     }
 }
-const FootDom = ()=>
-    <BrowserRouter>
-      <Footer/>
-    </BrowserRouter>
+const FootDom = ()=>{
+    return( <BrowserRouter>
+        <Footer/>
+      </BrowserRouter>);
+}
 
 export default FootDom;
