@@ -1,5 +1,5 @@
 import React,{Component}from 'react';
-import axios from 'axios';
+// import axios from 'axios';
 import {PersonInfo,ServerDom} from './myIndex';
 import './index.css';
 import myInfoData from './json/myInfo.json'
@@ -26,8 +26,11 @@ import myInfoData from './json/myInfo.json'
         }
     
      render(){
-         return(<div>
-             <PersonInfo dataValue={myInfoData.data}/>
+         return(<div className="container">
+            <div className="myHead border-t border-b">
+               <PersonInfo dataValue={myInfoData.data}/>
+            </div>
+            
              <div className="goWhere">
                  <ul className="goOther">
                     <ServerDom dataType="service" txt="联系客服" iconName="icon-arrow-down"/>

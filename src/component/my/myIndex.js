@@ -1,9 +1,10 @@
 import React,{Component}from 'react';
-import './index.css'
+import './myIndex.css';
+import UserImg from './imgs/defult-head.png';
 class PersonInfo extends Component{
     render(){
         return(<div>
-                    <img className="user-head" src="./imgs/defult-head.png" alt="用户默认头像" />
+                    <img className="user-head" src={UserImg} alt="用户默认头像" />
                     <div id="user-info">
                         <div className="messageInfo">
                             <div className="user-name nowrap">{this.props.dataValue.name}</div>
