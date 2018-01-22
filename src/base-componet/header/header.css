@@ -1,15 +1,12 @@
 .header{
     text-align: center;
-    padding-top: 20px;
-    height: 45px;
-    position: fixed;
-    line-height: 45px;
 }
 .icon-left{
     float: left;
     padding-left: 10px;
     font-size: 22px;
 }
-h1{
-    font-size: 18px;
+.iphone-device{
+    height: 65px !important;
+    padding-top: 20px;
 }

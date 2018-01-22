@@ -1191,6 +1191,9 @@ h6, .txt-tips {
   background-color: #fff;
   -webkit-overflow-scrolling: touch;
 }
+.iphone-device.container{
+  padding-top: 65px !important;
+}
 
 .container > * {
   -webkit-transform: translateZ(0);
@@ -1213,6 +1216,7 @@ header,
   top: 0;
   height: 45px;
   line-height: 45px;
+  background: #fff; 
 }
 
 footer,
@@ -1234,6 +1238,7 @@ header ~ .container,
 header h1,
 .header h1 {
   margin-bottom: 0;
+  font-weight: normal;
 }
 header .title,
 .header .title {

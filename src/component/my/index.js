@@ -30,7 +30,7 @@ import { Link } from 'react-router-dom';
      render(){
          return(
              <div>
-                 <Header txt='我'/>
+                 <Header title='我'/>
                 <div className="container">  
                     <div className="myHead border-t border-b">
                     <PersonInfo dataValue={myInfoData.data}/>

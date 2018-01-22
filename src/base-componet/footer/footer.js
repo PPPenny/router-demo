@@ -19,11 +19,10 @@ class Footer extends Component{
                 </div>
                 <main>
                     <Route path="/" exact component={OrdersIndex}/>     
-                        <Route path="/orders" exact component={OrdersIndex} />
-                        <Route path="/order" exact component={OrderIndex} />
-                        <Route path="/clue" exact component={ClueIndex} />
-                        <Route path="/my" exact component={MyIndex} />
-                    
+                    <Route path="/orders" exact component={OrdersIndex} />
+                    <Route path="/order" exact component={OrderIndex} />
+                    <Route path="/clue" exact component={ClueIndex} />
+                    <Route path="/my" exact component={MyIndex} />
                </main>
             </div>
         )
