@@ -3,7 +3,7 @@ import './myIndex.css';
 import UserImg from './imgs/defult-head.png';
 class PersonInfo extends Component{
     render(){
-        return(<div>
+        return(<div id="user-message">
                     <img className="user-head" src={UserImg} alt="用户默认头像" />
                     <div id="user-info">
                         <div className="messageInfo">
@@ -23,7 +23,7 @@ class ServerDom extends Component{
             <li className={this.props.dataType}>        
             <span className="border-b">{this.props.txt}</span>
             <i className={this.props.iconName}></i>
-        </li>
+            </li>
         )
          
     }

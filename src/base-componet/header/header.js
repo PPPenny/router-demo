@@ -1,15 +1,21 @@
 import React,{Component}from 'react';
+import {history} from 'react-router-dom';
 import './header.css';
-import DeviceName from '../../util/check-device'
-import {Route, Link } from "react-router-dom";
+import DeviceName from '../../util/check-device';
 class Header extends Component{
-
+    constructor(props){
+        super(props);
+        this.goPre = this.goPre.bind(this);
+    }
+    goPre(){
+        this.props.history.goBack();
+    };
     render(){
         return(
             <div className={DeviceName +" header"}>
-                <Link to={this.props.linkTo ? this.props.linkTo : ""}><i className={"icon-left "+this.props.iconLeftClass}/></Link>
+                <i className={"icon-left "+this.props.iconLeftClass} onClick={this.goPre}/>
                 <h1>{this.props.title}</h1>
-                <Route></Route>
+                
             </div>
         )
     }
