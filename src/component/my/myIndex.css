@@ -41,9 +41,10 @@
     margin-top: 10px;
     margin-bottom: 30px;
     background-color: #ffffff;
-    padding: 0px;
 }
-
+.goOther{
+    padding: 0px;    
+}
 .goOther li {
     position: relative;
     margin-bottom: 0;
