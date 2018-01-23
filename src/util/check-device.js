@@ -4,12 +4,9 @@ const DeviceName = ()=>{
          return 'iphone-device';
      }
      else{
+      
          return 'android-device';
      }
 }; 
-
-
-
-
 
 export default DeviceName();

@@ -8,7 +8,7 @@
         "phone":"18680751843",
         "bankType":"1",
         "bankNo":"6222222222222122222",
-        "agentType":"1,2",
+        "agentType":"金融，整车",
         "provinceId":"23",
         "provinceName":"重庆",
         "cityId":"268",
@@ -17,7 +17,7 @@
         "areaName":"江北区",
         "dealerId":"2381",
         "dealerName":"个性化定制车虚拟经销商",
-        "state":"4",
+        "state":"认证成功",
         "updateTime":"2017-11-30 17:04:50.0",
         "remark":"ewt5u65esr",
         "financeName":"",
@@ -31,7 +31,8 @@
         "assignTime":null,
         "assignNum":0,
         "isEnjoyService":null,
-        "finances":[]
+        "finances":[],
+        "version":"1.0.0"
     }
 
 }

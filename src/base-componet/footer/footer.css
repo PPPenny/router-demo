@@ -18,3 +18,7 @@
     display: table-cell;
     vertical-align: middle
 }
+.active-footer,
+.active-footer .icon{
+    color: #03a9f4;
+}

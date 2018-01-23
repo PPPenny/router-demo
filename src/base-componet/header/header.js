@@ -1,7 +1,5 @@
 import React,{Component}from 'react';
-import {history} from 'react-router-dom';
 import './header.css';
-import DeviceName from '../../util/check-device';
 class Header extends Component{
     constructor(props){
         super(props);
@@ -12,7 +10,7 @@ class Header extends Component{
     };
     render(){
         return(
-            <div className={DeviceName +" header"}>
+            <div className=" header">
                 <i className={"icon-left "+this.props.iconLeftClass} onClick={this.goPre}/>
                 <h1>{this.props.title}</h1>
                 

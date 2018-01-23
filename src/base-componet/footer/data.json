@@ -1,0 +1,24 @@
+{
+    "data":[
+        {
+            "txt":"订单",
+            "onIcon": "icon-new-order",
+            "link":"/orders"
+        },
+        {
+            "txt":"下单",
+            "onIcon": "icon-new-orders",
+            "link":"/order"
+        },
+        {
+            "txt":"线索",
+            "onIcon": "icon-clue",
+            "link":"/clue"
+        },
+        {
+            "txt":"我",
+            "onIcon": "icon-mine",
+            "link":"/my"
+        }
+    ]
+}

@@ -20,16 +20,28 @@ class PersonInfo extends Component{
 class ServerDom extends Component{
     render(){
         return(
-            <li className={this.props.dataType}>        
+            <li>        
             <span className="border-b">{this.props.txt}</span>
             <i className={this.props.iconName}></i>
             </li>
         )
          
     }
-   
 }
-export {PersonInfo,ServerDom}
+
+class ServerDomNum extends Component{
+    render(){
+        return(
+            <li>        
+            <span className="border-b">{this.props.txt}</span>
+            <label className="li-txt-rt">{this.props.htmlValue}</label>
+            </li>
+        )
+         
+    }
+}
+
+export {PersonInfo,ServerDom,ServerDomNum}
 
 
 

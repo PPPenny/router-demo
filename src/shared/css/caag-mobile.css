@@ -1191,14 +1191,19 @@ h6, .txt-tips {
   background-color: #fff;
   -webkit-overflow-scrolling: touch;
 }
-.iphone-device.container{
-  padding-top: 65px !important;
-}
+
 
 .container > * {
   -webkit-transform: translateZ(0);
   -ms-transform: translateZ(0);
   transform: translateZ(0);
+}
+.iphone-device .header{
+  height: 65px !important;
+  padding-top: 20px;
+}
+.iphone-device .container{
+  border-top: 65px solid transparent !important;
 }
 
 header,

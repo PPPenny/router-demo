@@ -35,4 +35,7 @@
     color: #949494;
     line-height: 1em;
 }
-
+.li-txt-rt{
+   position: absolute;
+   right: 14px;
+}
