@@ -1694,3 +1694,10 @@ footer ~ .container,
 }
 
 /*# sourceMappingURL=caag-mobile.css.map */
+
+
+
+.active-footer-item .footerTxt,
+.active-footer-item .icon{
+  color: #03a9f4;
+}

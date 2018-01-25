@@ -1,7 +1,11 @@
 import React,{Component}from 'react';
+import { Button , WingBlank} from 'antd-mobile';
  class OrderIndex extends Component{
      render(){
-         return(<div>下单首页</div>);
+         return(
+            <WingBlank>
+            <Button type="primary">primary</Button>
+            </WingBlank>);
      }
  }
  export default OrderIndex;

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "antd": "^3.1.4",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.0"
@@ -14,7 +15,14 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "antd": "^3.1.4",
+    "antd-mobile": "^2.1.4",
     "axios": "^0.17.1",
-    "react-router-dom": "^4.2.2"
+    "babel-plugin-import": "^1.6.3",
+    "node-sass": "^4.7.2",
+    "react-app-rewired": "^1.4.0",
+    "react-router-dom": "^4.2.2",
+    "sass-loader": "^6.0.6",
+    "svg-sprite-loader": "^0.3.1"
   }
 }
