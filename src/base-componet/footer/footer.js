@@ -1,6 +1,6 @@
 import React,{Component}from 'react';
 import FooterItem from './footer-item';
-import { BrowserRouter, Route, NavLink  } from "react-router-dom";
+import { BrowserRouter, Route, NavLink ,Switch ,Redirect} from "react-router-dom";
 import OrdersIndex from '../../component/orders/index';
 import OrderIndex from '../../component/order/index';
 import ClueIndex from '../../component/clue/index';
@@ -21,11 +21,13 @@ class FootDom extends Component{
                         }
                     </div>
                     <main>
-                        <Route path="/" exact component={OrdersIndex}/>     
-                        <Route path="/orders" exact component={OrdersIndex} />
-                        <Route path="/order" exact component={OrderIndex} />
-                        <Route path="/clue" exact component={ClueIndex} />
-                        <Route path="/my" exact component={MyIndex} />
+                        <Switch>
+                    <Route path="/" exact render={()=><Redirect to='/orders'/>}/>  
+                            <Route path="/orders" exact component={OrdersIndex}/>      
+                            <Route path="/order" exact component={OrderIndex} />
+                            <Route path="/clue" exact component={ClueIndex} />
+                            <Route path="/my" exact component={MyIndex} />
+                        </Switch>
                     </main>
                </div>
             </BrowserRouter>
